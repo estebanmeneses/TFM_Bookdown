@@ -1,9 +1,377 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
-date: "`r Sys.Date()`"
+title: |
+  <center>Inter-islands maritime traffic disruption in Las Palmas: Meteoceanic        conditions and economic impacts</center>
+
+author: "Esteban Meneses"
+date: "July 2021"
 site: bookdown::bookdown_site
 ---
 
-# Down the rabbit-hole
+# Abstract 
+
+The Canary Islands being around two thousand kilometers from the Spain mainland, has certain corresponding peculiarities of an archipelago for its socio-economic development. Its remoteness and fragmented territory make them highly dependent of maritime transport, since their commerce and movement of people happens mainly by sea. In this context, the disruption of inter-island shipping lines due to different reasons, in particular severe meteoceanic conditions, leads to negative socio-economic implications. The present study focuses on the identification of adverse oceanographic and meteorological conditions inducing disruptions along inter-island maritime traffic routes for transporting passengers and cargo in Las Palmas province. The results indicate that every maritime route can be affected by disruptive stormy events, mainly depending on the directionality of these episodes, which have a marked seasonality, and the characteristics of the vessel covering a specific route. These bad weather conditions cause the disruption of maritime regular lines and with it the loss of hundreds of euros every hour of delay, detour, or disruption of a maritime route only by the tourism consumption side.
+
+
+
+Keywords: inter-island maritime traffic disruption, meteoceanic conditions, economic assessment, regular lines. 
+
+
+# Introduction
+
+
+Since the beginning of our civilization up to the present-day humans have developed ways to transport people and goods. In fact, our current way of life depends entirely of transport, and the main and best mean of cargo transport for long distances has been the maritime transport, which now represents 80% of the global trade by volume and 70% of the global trade by value (UNCTAD, 2020). More than any other region on our planet, Archipelagos are totally dependent of maritime transportation for its socioeconomic development, since the need of import and export of goods is even more evident, and many of its inhabitants need to travel around or out of the islands due to a wide range of reasons. Hence, having a well-connected maritime transport system is vital for its development and subsistence. Moreover, a good transport system allows accessibility and mobility, not only for its inhabitants, but also for the transport of goods, which has a great impact in the local economies, thus the more and better the maritime transport logistics are connected, the faster the socioeconomic development (Delgado & Hernández, 2019).
+
+Maritime transport system in remote islands is even more indispensable for competitiveness, thus a maritime logistics efficiency can be determinant in developing trade between two distant regions. For instance, Indonesia has been improving its maritime logistics, and by 2013 was the largest component of its Gross Domestic Product (GDP) with 12% (Chairullah et al., 2021; World Bank, 2013). In this sense, Canary Islands have developed rapidly thanks to maritime transport, since the islands are a strategic stop for those ships on their way to America, Africa or Asia from Europe, and vice versa (J. Hernández, 1996; Tovar et al., 2014). Currently, Gran Canaria has the fourth most important port in Spain, allowing a great amount of trade between regions. 
+
+In addition to connection between islands and continents, inter-island transport plays a key role in keeping its inhabitants connected in a scattered territory. The isolation in archipelagic areas is often linked to loss of opportunities for human development, this social exclusion makes people from further regions not able to be involved in the mainstream society culture and opportunities. For instance, Philippines, as a country made up of 7,641 islands with a population over 100 million people, has marked differences of accessibility to social development between its inhabitants close to large urban centers and those living in the most remote islands (Cao et al., 2017). Canary Islands being at 2000 km from the Spain mainland face the challenge to keep its inhabitants well-connected. There are islands whose only mean of transport with the exterior is by sea. For instance, La Gomera Island not long ago opened its airport, which is a minor airport only for internal regional flights and La Graciosa Island does not have any airport, making them totally dependent of maritime transport. In this context, despite the low number of passengers in certain routes, these must stay open, otherwise its inhabitants could be isolated to the social and cultural diversity that central islands have. Thus, the government subsidizes its permanent inhabitants and also the shipping companies to guarantee mobility on those routes (J. Hernández, 1996). 
+
+At present, the main types of maritime transportation used in archipelagos for short distances, have been the Roll on-Roll off (RoRo) and Roll on–Roll off Passenger (RoPax), which is supposed as the most environmentally friendly and energy efficient mode of transport due to the rapid loading and unloading of passengers and goods, since merchandise trailers roll in directly as well as passengers with and without cars. RoRo vessels and terminals are designated for cargo trailers, by contrast RoPax vessels have facilities for both cargo trailers and passengers with and without cars. Both, RoRo and RoPax ships can have bow, stern, and side ramps (e.g. Christodoulou & Woxenius, 2019; Marzano et al., 2020). 
+
+The disruption of inter-island maritime traffic can have a broad range of socioeconomic impacts, which can vary from not being able to attend a family or a work meeting, to the disruption on the supply chain that can cause a shortage of products, leaving an entire population vulnerable (e.g. Wilson, 2007). In the particular case of Canary Islands, maritime traffic disruptions may have an affect even more drastic, since the development of the islands is mainly based on tourism economy, so that every hour of delay or suspension of a scheduled travel may result in the loss of hundreds of euros. Furthermore, this fact may be even more severe depending on the traffic density of a given route (Mendoza & López, 2002). 
+
+In Canary Islands, in 2019, there were 11.8 million of travelers by sea, not including cruise ship travelers, but only those from the companies that have regular routes in the archipelago. Besides, were transported 3.2 million of vehicles in the islands (Puertos Canarios, 2021; Puertos del Estado, 2021). The frequency of routes among the islands varies depending mainly on demand, population, and port infrastructure (J. Hernández, 2018; Puertos del Estado, 2021).
+
+Last decades, the archipelago has experienced a vertiginous growth of population, especially from 2000 to 2010, reaching in 2019 over two million people. According to the canarian institute of statistics, 82% of the population is concentrated in two islands: Gran Canaria and Tenerife. The remaining 15% is distributed among Lanzarote, La Palma, and Fuerteventura, and only 2% between La Gomera and El Hierro (ISTAC, 2021). One of explanations of the concentration mentioned in the two islands is that many families have members in more than one island, this can be observed on the quantity of people born in other islands other than their parents, which has allowed the central islands to develop more quickly due to the greater ease of transporting to the other islands  (J. Hernández, 1996). 
+
+Something similar happens with the Gross Domestic Product (GDP) among the islands, reaching around € 47 billion in 2019 before the general collapse due to Covid-19. This GDP is highly concentrated, as the population, in two islands: Gran Canaria and Tenerife. The rapid change in economic activities from primary sector to the service sector, has pushed the mobility among the islands. In 2019, the total number of tourists was 15.1 million, 66% of them went primarily to Gran Canaria and Tenerife. Therefore, tourism share of GDP in the Canary Islands was around 32% (€ 15.09 billion), moreover tourism sector is the main supplier of work, its share reaches the 40% of total employ, being the daily average estimate spending by a tourist € 148 (ISTAC, 2021). This reflects that the tourism industry is crucial to the development of the islands. Some of this share contributes to other sectors, increasing the income per capita in the islands (€ 21 244 in 2019). With respect to the transport of goods around the islands, in 2019, 39.7 million tons were transported by sea versus 42 thousand tons by air (ISTAC, 2021). On the other hand, competition for tourists between air and maritime transport companies does not happen with transport of goods, being almost all freight transport done by sea (J. Hernández, 1996).  
+
+In view of the above comments, it is clear that the interruption, cancellation, or delay of maritime traffic between islands has important socioeconomic repercussions. Maritime traffic disruptions can be due to a wide range of factors, such as meteoceanic conditions (waves storms and strong winds), port closures, administration closures, human errors, ship malfunction and others. Shipping companies may decide not to operate if there is any risk to the ship, which are tied to the insurance limits, if maneuverability for port operations or while seakeeping is reduced and, in particular, when passenger comfort is considerably affected by meteoceanic conditions. Bad weather conditions can affect ships, which can withstand them depending on their features, in general the bigger the overall length and beam are, the less it will affect the vessel. A common practice in marine navigation to avoid adverse meteoceanic conditions is to plan the route to follow in advance to the travel, as well as receiving meteorologic information to adapt the course to current conditions. However due to short distances between the routes in Canary Islands, this practice has strong constraints, so that in many cases the only viable option is the cancellation of scheduled trips. This work is concentrated only in the maritime disruptions due to strong wind and/or wave conditions.
+
+In this framework, the aim of this study is two-sided. At one hand, the study aims to identify meteoceanic conditions inducing disruptions of maritime transport of passengers and goods between islands in Las Palmas province, exploring its frequency and time patterns. An additional goal is to conduct a preliminary economic impact assessment in terms of the delay, suspension, or detour to alternative ports of maritime regular traffic. Thus, the study is organized as follows: section 2 describes the main features of the study area and used datasets. The methodology used along the study is briefly explained in section 3. Results obtained in the study and their discussion are presented in section 4. Finally, main conclusions are remarked in section 5.
+
+# Study Area and Data
+
+
+## Study Area
+
+The Canary Islands archipelago is formed by eight populated islands and six islets of volcanic origin. It is located at around 200 kilometers in front of Sahara’s coast in the northwestern Africa (Figure 1). Their climate is influenced by its geographical location, within the area of action of the steady trade winds belt, ruled by the high-pressure Azores cell and the low-pressure Icelandic cell, which shows a seasonal pattern throughout the year. During summer, these winds blow on a moderate way from N-NNE (frequencies between 90% and 95%), whilst in winter blow with lower intensity from NE (frequency over 50%) (Pérez et al., 2014). This climate system makes them ideal for tourists, who arrive in large quantities every year. Taking into account the above cited atmospheric conditions it is natural that wave conditions in the archipelago are generally mild or moderate, with two northern extreme sides (west and east) of the islands seen the most energetic ones, mainly during winter with a clear seasonal pattern (Guerra & Rodríguez, 2021). Furthermore, tides are mesotidal, with a semidiurnal pattern, oscillating between 0.5 m and 3 m, with an average value of about 1.5 m (Di Paola et al., 2020).
+
+From a geographical point of view, there is a marked difference between the western and eastern islands, the western side islands (La Gomera, El Hierro, Tenerife, and La Palma) are the youngest and the highest ones. In contrast, the eastern islands (Gran Canaria, Lanzarote, La Graciosa, and Fuerteventura) are the older islands with mostly flat landscapes (Masson et al., 2002; Stillman, 1999). Something similar happens with the bathymetry, the western side is deeper, reaching 3 thousand meters between La Gomera, El Hierro, and La Palma islands, on the contrary on the eastern side of Fuerteventura, Lanzarote and La Graciosa maximum depth only reaches 1 thousand meters. Furthermore, politically and administratively the islands are divided into two provinces: Santa Cruz de Tenerife and Las Palmas (See Figure 1). Likewise, each province has its own maritime captaincy, which have jurisdiction over their respective waters (J. Hernández, 2018). The present work focuses on passengers and cargo maritime traffic disruptions to or from ports located in Las Palmas province due to bad weather conditions.
+
+```{r location,fig.align="center", echo=FALSE, fig.cap = "Location of Canary Islands (left). Zoom of the Canary Islands with a separation line between the two provinces: Santa Cruz de Tenerife and Las Palmas (right)"}
+knitr::include_graphics("docs/fig1.png")
+```
+
+ 
+
+## Data 
+
+The present study is based on various information sources of uneven nature. Thus, information regarding goods and passengers’ transportation between islands has been provided by the Spanish Ports institutions. Economic and demographic statistics have been obtained from the Canarian Institute of Statistics (ISTAC), these datasets have a cutoff in 2019, since after COVID-19 the economy collapsed, changing the number of regular routes. Information on routes among the islands corresponds to the four shipping companies transporting passengers and goods within the archipelago. Meteoceanic data are provided by Puertos del Estado and are derived by means of a hindcasting approach, which consists of two main steps. First, wind conditions over the area of interest are reproduced by means of a numerical model on the basis of past atmospheric analyses. Then, this information is used as input to a third generation wave numerical model, such as SWAN (Booij et al., 1999), to reproduce the corresponding wave conditions at multiple nodes of a numerical grid. In this case, nodes are named as SIMAR points and in most cases the associated datasets cover the period from 1958 to the present but in some cases, these extend from 2012 up to date, as a generation model. SIMAR points were selected to adequately reproduce meteoceanic conditions along the different maritime routes used by regular shipping companies that travel from or to the islands of Las Palmas province. Their location and nomenclature used to refer to each of them is shown in Figure 2.
+
+ 
+```{r points,fig.align="center", echo=FALSE, fig.cap = "Hindcasting points location and nomenclature."}
+knitr::include_graphics("docs/fig2.png")
+```
+
+
+It is noteworthy that information provided by numerical models does not come from instrumental measurements and therefore have a considerable degree of uncertainty (Abdolali et al., 2021). However, the employ of numerical prediction models is a common practice due to the lack of long-term reliable data. Accordingly, whenever possible, validation against experimental data should be carried out. In this sense, it should be noted that meteoceanic information used in this study has been checked in previous studies with adequate results in general (e.g. Gonçalves et al., 2014; Sierra et al., 2013) but some limitations mainly due to the complexity of the islands' geometry and orography (Guerra & Rodríguez, 2021). Accordingly, this uncertainty needs to be taken into account when analyzing the results.
+
+The final product provided by the wave hindcasting approach is the directional spectral density function, $S(f, θ)$, which represents the energy contribution of any wave component to the measured wave field in terms of the frequency, f, and propagation direction, $θ$. Sea state parameters obtained for each SIMAR point, have been derived from spectral moments of the directional spectral density function, $S(f, θ)$. The central parameter to characterize sea state is the significant wave height $(H_{m0})$, defined as four times the square root of the zero-th order spectral moment, $m_{0}$, being the total energy of the process.
+
+```{=tex}
+\begin{equation}
+H_{m0}= 4 \sqrt{(m_{0})}
+(\#eq:2)  
+\end{equation}
+```
+
+Regarding wave periods, two of the most common parameters used are the average wave period $(T_{02})$, defined in terms of spectral moment as
+
+```{=tex}
+\begin{equation}
+T_{02} = (\frac{m_{0}}{m_{2}})^(1/2)
+(\#eq:2)  
+\end{equation}
+```
+
+The other one is the spectral peak period $(T_{p})$, which is the period associated with the most energetic spectral wave components. $T_{p}$ is defined as the inverse of frequency at which the spectral density function attains its maximum $(f_{p})$. 
+
+```{=tex}
+\begin{equation}
+T_{p}=  \frac{1}{f_{p}} 
+(\#eq:2)  
+\end{equation}
+```
+
+In contrast to $T_{02}$, $T_{p}$  is not calculated by means of spectral moments but regarding a single spectral estimate and therefore displays high statistical variability (Rodríguez et al., 1999).
+In relation to directional properties of wave fields, one of the most common parameter used to characterize their directionality is the mean spectral direction, $θ_{m}$, (Vega & Rodríguez, 2007) which is defined as the mean direction over all the frequency bands in the two-dimensional spectrum $S(f, θ)$.
+Another important parameter in the study of ship dynamics is the significant wave steepness. For a monochromatic wave train wave steepness parameter is defined as the ratio of wave height $(H)$ and wavelength $(L)$. That is,
+
+```{=tex}
+\begin{equation}
+S= \frac{H}{L}
+(\#eq:2)  
+\end{equation}
+```
+
+
+Assuming linear wave theory, the dispersion relationship allows to express wavelength in deep waters as
+
+```{=tex}
+\begin{equation}
+L=  \frac{gT^{2}}{2 \pi}
+(\#eq:2)  
+\end{equation}
+```
+
+
+Considering a wave train which can be characterized by the significant wave height, H_m0, and the peak period, T_p, wavelength can be expressed as 
+
+
+```{=tex}
+\begin{equation}
+L_{p}=  \frac{gT_{p}^{2}}{2 \pi}
+(\#eq:2)  
+\end{equation}
+```
+
+So that significant wave steepness in terms of the peak period is given by
+
+```{=tex}
+\begin{equation}
+S_{p} =  \frac{H_{m0}}{L_{p}} =(\frac{2 \pi}{g})  \frac{H_{m0}}{T_{p}^{2}}
+(\#eq:2)  
+\end{equation}
+```
+
+
+For further information these and other wave parameters the reader is referred to general texts, such as the one by Massel, 1996.
+Information on the disruption of maritime lines has been obtained from two main sources. First, that provided by Fred Olsen Express, covering the period from 2017 to 2020. On the other hand, that retrieved from the JABLE database, which is a compilation of local press created by University of Las Palmas de Gran Canaria, containing news from 1808 to the present. Regarding this kind of information, despite its usefulness in the absence of more reliable information, it is necessary to indicate that it can be biased and incomplete, due to diverse motives, such as readers preferences, showing them what they consider of interest. Thus, a significant number events (suspensions, delays, or diversions of inter-island maritime regular traffic due to bad weather conditions) identified from the first source are not covered by the press. However, this source has the advantage of covering a long period of time and including information on events with the greatest socioeconomic impact. Finally, the development of a preliminary economic assessment, considering only the tourism sector, is based on data provided by (ISTAC, 2021).
+
+# Methodology
+
+Methodological approach used to examine the characteristics of maritime regular lines of cargo and passengers’ disruptions from and to Las Palmas province islands, due to bad weather conditions, consisted of the following steps.
+Initially, a database of disruption events, including interruptions, cancellations, delays, or diversions, of the above cited regular maritime lines has been developed by using information provided by Fred Olsen Express shipping company and that extracted from the JABLE database. Events were organized in chronological order and by shipping lines.
+
+The following step consisted in organizing datasets of wind (wind speed and direction) and wave parameters (significant wave height, peak period, significant wave steepness, and wave direction) by point along each route. Each parameter time series was first examined as a whole to establish the general behavior of winds and waves along each route and along its different sections. Subsequently, the evolution of each parameter at each point along a specific route during the detected disruption events was examined in detail.
+
+In particular, seasonality of the disruption of inter-insular maritime traffic was assessed converting the 365 days per year to angles between 0 and 360 degrees, which are then represented in polar coordinates. It interesting to note that days of the year can also be represented on the line. However, this approach generates artificial discontinuities at the edges that are eliminated by using a graphical representation in polar coordinates, due to the cyclic nature of the variable.
+
+Concerning the directionality of wind and waves, the bivariate empirical distribution $θ_{m} - H_{m0}, θ_{m} - T_{p}$, as well as wind speed and direction have been obtained for the whole dataset and represented in polar coordinates, that is, as wave and wind roses, since this kind of display allows to appreciate better the distributions between linear and directional parameters.
+
+Regarding the socioeconomic assessment, first a general review of the socioeconomic situation and the tourism sector was made. To obtain the economic value of the disruption of maritime lines, a final consumption expenditure approach was made, which is the consumption made of final products made by the private and public sector. In addition, this final consumption is very high in most countries, in Spain is around 78.1% of its GDP  (World Bank, 2021). This expenditure approach of GDP is defined as, private final consumption expenditure + government final consumption expenditure + gross capital formation + exports – imports. In Spain, private final consumption expenditure only is around 56% of its GDP (Eurostat, 2021; World Bank, 2021). Thus, it seems an appropriate approach being also that the economy of the islands is tourism-based.
+
+To this end, 2017 - 2019 data before the collapse due to the pandemic, published by the ports considered in this study, were analyzed to search for structures such as trends and seasonality. To obtain the economic value due to the disruption, first it was attained the market share of Fred Olsen Express, being the only shipping company sharing its disruptions information. Then, the number of passengers during several years was compared to the total of regular passengers according the State Ports and the Canarian Ports. Next, the average for the 3 years provided by Fred Olsen Express (2017 – 2019) was obtained. In this way, it was achieved that Fred Olsen Express controls 32% of the regular passenger market around the islands.
+
+Second, with Fred Olsen Express data, the average number of passengers by route and month was estimated. Next, using the estimated percentage of market share, the total average of passengers was estimated for every month, trip and route. Thirdly, using the ISTAC data of tourism, data on the percentage of tourists by the most representative nationalities by month on each island were matched with available data, however their estimation about the average spending of tourists and the number of tourists had a small sample per month, making them weak. The daily tourist’s expenditure estimated by ISTAC was divided by 16, assuming they have 8 hours of sleep, that is, time without consuming. Finally, it was assumed that 67% of the regular passengers travel for tourism on each route, this percentage was achieved by adding regular passengers of each port by island and dividing them for the monthly average number of tourists by island and averaging them. Despite the low samples and limited information around it, the approach provides an appropriate characterization, achieving an economic value due to the disruption of maritime lines by islands and months. 
+
+# Results and Discussion
+
+
+## Inter-Island Maritime Regular Traffic
+
+Las Palmas province is relatively well-connected by sea; however, its maritime frequencies differ among the islands, its trans-island network of maritime transport covers from cruise ships to local shipping companies. This work focuses on the regular trip companies, since they are the main source of transportation among the islands for tourists and goods. Currently, there are 4 shipping companies, the two major ones almost control all the regular passenger’s market (Naviera Armas and Fred Olsen Express), they use RoPax vessels, although Naviera Armas, the largest company, has also freight operations, while the two minor ones that operates only on the northeastern islands (Líneas Romero and Biosfera Express), have small ferries only for passengers. Fred Olsen Express mostly use catamaran ships, which are ships with a multi-hulled watercraft featuring two parallel hulls of equal size. Moreover, they also have trimarans, which are ships with a multi-hulled watercraft featuring three parallel hulls, making them even more stable than Catamarans. On the other hand, Naviera Armas operates with Catamarans and monohull vessels, while the smaller companies, Líneas Romero and Biosfera Express operates with Catamaran vessels only for passengers in the most northern east routes (Table 1). 
+
+
+```{r, table1, eval=T, echo=F, message=F}
+library(DT)
+
+
+barcos <- readxl::read_xlsx("docs/Barcos y rutas.xlsx", sheet = "Sheet3")
+
+datatable(barcos, caption = "Table 1. Vessels features and routes operating in Las Palmas. See port´s location in Figure 3.", options = list(searching=FALSE, pageLength=10,  rownames = FALSE,lengthMenu = c(5, 10, 15,20),autoWidth = TRUE, scrollX = T))
+
+  
+```
+^[There is no available information about Líneas Romero’s Vessels.]
+
+
+
+The mentioned shipping companies have over seven routes of regular maritime traffic, but only 3 of them exceed 500 thousand passengers per year. These are: Playa Blanca - Corralejo; Santa Cruz de Tenerife - Agaete; y Las Palmas de Gran Canaria - Morro Jable (J. Hernández, 2018; Puertos del Estado, 2021). The frequency of these routes varies mainly depending on the demand; therefore, summer has the highest frequencies and the more frequent routes are the ones with more tourists, such as Corralejo – Playa Blanca, Órzola - Caleta de Sebo, and Sta.Cruz de Tenerife – Agaete (Table 2). It is worth mentioning that those routes’ frequencies are based on the current available schedules of each shipping company.
+
+
+
+```{r, table2, eval=T, echo=F, message=F}
+library(DT)
+
+barcos <- readxl::read_xlsx("docs/Barcos y rutas.xlsx", sheet = "Frequencies")
+
+
+datatable(barcos,caption = "Table 2. Frequencies and routes in Las Palmas province. See port´s location in Figure 3.", options = list(searching=FALSE, rownames = FALSE, pageLength = 5,lengthMenu = c(5, 10), scrollX = T,autoWidth = TRUE))
+
+```
+^[(J. Hernández, 2018)]
+
+In 2019, the greatest movement of regular passengers was between Gran Canaria and Tenerife (4.1 million) (from Santa Cruz de Tenerife to Las Palmas or Agaete port), likewise the next routes were Playa Blanca to Corralejo (1.1 million), Las Palmas to Morro de Jable (0.6 million), Caleta de Sebo (La Graciosa) to Órzola (Lanzarote) (0.45 million) and Las Palmas – Arrecife (0.23 million), such as shown in Figure 3, drawn from the information of Puertos Canarios and Puertos del Estado for 2021.
+
+
+```{r passengers,fig.align="center", echo=FALSE, fig.cap = "Number of passengers in 2019 in the inter-island routes, traveling from or to Las Palmas province ports."}
+knitr::include_graphics("docs/fig3.jpg")
+```
+
+
+
+Last years, maritime regular traffic of passengers and vehicles have had a slightly positive trend in most ports, its growth in the islands was 24% from 2015 to 2019. The two main ports in Gran Canaria (Las Palmas and Agaete) registered most travelers and vehicles around the province, which is consistent with the amount of tourism in these islands. Vehicles transported have the same trend, with the greater traffic density between the 2 provincial capitals. In addition, vehicles movement around the islands has grown at 33.7% for the same period, thus the difference between them can be attributable to national tourists and local travelers, since rental car companies do not allow travel between islands (Puertos del Estado 2021) (Figure 4). 
+
+ 
+
+
+```{r vehicles,fig.align="center", echo=FALSE, fig.cap = "(A) Movement of regular passengers (by thousands) by port and (B) vehicles (by thousands) by port at ports of Las Palmas province, according to national and provincial Port Institutions."}
+knitr::include_graphics("docs/fig4.jpeg")
+```
+
+
+
+On the other hand, in 2019, the main port of the islands by far is Las Palmas port, which reached 20.4 million tonnes transported, almost doubling in 19 years. It is followed by Arrecife (1.7 million tonnes) and Puerto del Rosario (1.2 million tonnes) both with similar trends (Figure 5).
+
+
+```{r goods,fig.align="center", echo=FALSE, fig.cap = "Tonnes of goods among Las Palmas province ports"}
+knitr::include_graphics("docs/fig5.jpeg")
+```
+
+
+## Meteoceanic Conditions Inducing Disruptions 
+
+
+Joint distribution of significant wave height and mean direction is shown in Figure 6 for the complete time series. It is observed that significant wave height (H_m0) reaching the islands is commonly mild and moderate travelling mainly from N-NE sector. In general, more severe wave fields approaching the islands reach at the north and northeast flanks. However, the margins exposed to these episodic severe conditions are those open to the N-NW sector, so that their effects on ports is reduced since there are no ports located at northwest flanks, with exception of Agaete which is partially sheltered by Tenerife, while the eastern ports are sheltered against these conditions. Furthermore, wave fields approaching routes and ports along this flank are energy restricted by fetch limitations imposed by the African coast. For instance, a common practice when there are bad weather conditions with a northern component in the route Las Palmas – Arrecife, is to divert the route on the east side of the islands (Figure 3). In addition, severe wave fields approaching the archipelago with W, SW, or even S component may have major impacts on ships travelling along routes exposed to these unusual wind and wave conditions.
+
+The dominant factor for governing the loads exerted by the waves on vessels is undoubtedly the significant wave height; due to wave energy flux has a quadratic proportionality with this parameter. Nonetheless, the control of aspects such as ship stability and maneuverability of the ship, or passengers comfort requires knowledge on factors as wave period and the directionality (Rawson & Tupper, 2001). 
+
+ 
+ 
+```{r Hm,fig.align="center", echo=FALSE, fig.cap = "Significant height waves (H_mo) and its directionality."}
+knitr::include_graphics("docs/fig6.png")
+```
+
+
+The bivariate distribution of peak period, T_p, and mean direction, shown in Figure 7, has a similar pattern to that observed for the joint distribution of wave heights and direction (Figure 6). It is observed that a remarkable proportion of wave fields arriving to the islands have short periods, indicating locally generated wind seas, but with with a notable frequency waves present peak periods larger than 10 seconds, mainly along routes exposed to wave fields from the N-NW sector, indicating the existence of swell waves, commonly with low steepness. In this sense, it is worth noting that waves with large heights and steepness, and therefore of short period, corresponding to locally generated wind seas, represents adverse type of sea state for navigation, although the directionality of the phenomenon also plays a key role.
+
+ 
+  
+```{r Tp,fig.align="center", echo=FALSE, fig.cap = "S Rose of wave peak period (T_p) and its directionality for the whole dataset."}
+knitr::include_graphics("docs/fig7.png")
+```
+
+
+
+Predominant wind conditions in Las Palmas province are related with the dominance of trade winds, resulting in relatively mild wind conditions blowing mainly from the NNE sector. Previous statement is particularly true for points at open sea, far from the coast, and not affected by orographic effects. Near coast mean wind direction may be deflected while directional variability increases noticeably. Furthermore, a significant decrease in wind speed can be observed in the sheltered side of the islands (Figure 8).
+
+
+  
+```{r joint,fig.align="center", echo=FALSE, fig.cap = "Joint distribution of wind speed and direction for the full dataset."}
+knitr::include_graphics("docs/fig8.png")
+```
+
+
+
+
+## Case Study Events
+
+The detailed analysis of wind and wave conditions during the disruptive episodes, as well as many other factors related to the characteristics of the vessel affected by these conditions is requiered to know the conditions under which interruption of navigation occurs on a given route. Accordingly, the temporal evolution of wind and waves at each point along a route where a disruptive event was identified has been examined in detail, taking also into account the characteristics of the vessel intended to operate in the maritime route.
+
+Although the analysis was carried out for each one of the identified disruption events, the evolution of the wind and wave parameters during two specific cases is examined in detail below by way of illustrative and representative examples. The selection of these two events has been made on the basis of several storm characteristics, as well as the routes affected.
+
+
+2010-02-17
+
+The regular maritime routes between Las Palmas de Gran Canaria – Morro Jable, Playa Blanca – Corralejo, Las Palmas – Arrecife y Agaete – Santa Cruz de Tenerife were interrupted on 17 February 2010 due to the presence of a strong atmospheric depression over the islands.
+The time evolution of wind and wave parameters at point MJ (closet o the Morro Jable Port, south of Fuerteventura) in the route Las Palmas – Morro Jable are shown in Figure 9. It can be observed (Fig. 9a) that the wind speed presents two peaks coinciding with increases of significant wave height to values about 4 m, while wind and waves approaches from the NW-W sector, (Fig 9c). Mean and peak periods attain low values, corresponding to locally generated wind seas (Fig. 9b) and, accordingly, the steepness acquires substantially high values. Under these conditions maritime traffic had to be interrupted in the routes exposed to the effect of high and steeped waves.
+
+
+```{r caso1,fig.align="center", echo=FALSE, fig.cap = "Wind and wave parameters evolution at point MJ in the route Las Palmas – Morro Jable. (2010/02/17; 4049009_MJ)"}
+knitr::include_graphics("docs/fig9.jpeg")
+```
+
+
+
+
+2013-12-11
+
+During 2013/12/11 the maritime traffic between Playa Blanca – Corralejo, Las Palmas – Arrecife and Caleta de Cebo – Órzola was interrupted due to an anomalous storm with moderate wave heights (Fig 10a) but considerably low periods (Fig. 10b) and large steepness (Fig. 10c) travelling from the south sector and, as a consequence, affecting the commonly sheltered routes and ports at the most eastern side of the archipelago, as well as the channel between Gran Canaria and Fuerteventura. 
+
+ 
+
+
+```{r caso2,fig.align="center", echo=FALSE, fig.cap = "Wind and wave parameters evolution at point GCCO-2 in the route Las Palmas – Arrecife (2013/12/11)."}
+knitr::include_graphics("docs/fig10.jpeg")
+```
+
+
+
+## Socioeconomic Implications
+
+There are many socioeconomic implications because of the disruption of maritime transport. Beginning from not being able to arrive on time to your destination, this could affect indirectly to the people that is waiting for your arrival, for instance, it could be your family, your job, etc. These disruptions or delays can be even more problematic regarding the transportation of goods, provoking the breakdown of the supply chain and a possible lack of stock in some products, since a great amount of goods are transported by RoPax Vessels.  Due to the lack information and the short time, this economic assessment does not take account neither the social impacts nor the interruption of cargo maritime transport, despite they may have great impacts in the socioeconomic field.
+
+Concerning about tourism, when local people spend unplanning time somewhere, they have to postpone other activities and spend unforeseen money to surpass the inconvenience, however it is likely that they travel again, since they are traveling to visit some family or doing business in some neighbor island. On the contrary, in the case of tourists, this may affect their willingness to return to the islands by that mean of transport, or even worst, they may not want to come back at all, since tourists often have reduced days of vacation; they try to plan every aspect of it, therefore the disruption or delay of their plans not only takes their vacation time, but also takes away time to consume at their destination, causing the loss of money for those who make a living from tourism. Since, the archipelago has a tourism-based economy, the economic assessment of disruption of maritime transport was obtained around it.  
+
+First, to put it in context, demographic growth has been steadily last decades, going from 1.71 million inhabitants in 2000 to 2.17 million inhabitants in 2020 (ISTAC, 2021). Likewise, it has happened with tourism, going from 13.3 million tourists in 2015 to 15.1 million tourists in 2019, only 13% of that amount were local tourists. As the population is concentrated in the central islands, tourism is also concentrated in the 2 provincial capital islands, however there are a considerable number of tourists in Lanzarote and Fuerteventura. Note that foreign tourists are much more than locals and the population as a whole, which is a measure of how important is tourism in the islands (Figure 11). 
+
+ 
+ 
+```{r tourism,fig.align="center", echo=FALSE, fig.cap = "Canary Islands tourism and population in 2019 (by hundred thousand) (ISTAC)."}
+knitr::include_graphics("docs/fig11.jpeg")
+```
+
+
+
+Second, it seems that tourism is cyclical, having 2 marked peaks, the highest peak of tourism is at winter (Dec – March), due to many northern Europeans travel to the islands to avoid their winter temperatures. Next peak is on the busy months of summer (July and August), where most people in the world is on vacation. By contrast, the lowest months of tourism are May - April at the beginning of spring, and September at the end of summer, when many people start classes (Figure 12).   
+
+
+ 
+```{r tourism2,fig.align="center", echo=FALSE, fig.cap = "Canary Islands seasonal tourism in months from 2015 to 2019 (by million) (ISTAC)."}
+knitr::include_graphics("docs/fig12.jpeg")
+```
+
+
+
+
+### Economic Assessment
+
+The present economic estimate of the disruption of maritime transport was made from a final consumption expenditure approach as mentioned before (See Methodology Section), that is, how much is not being consuming for each hour of delay, detour, or maritime suspension route in a certain island. To estimate this economic value, it was established some assumptions (See Methodology Section). Thus, it was accomplished a monetary value per hour for each month and island. This value tells us that for every hour of delay detour or disruption on a maritime route, tourists are not consuming that amount of money, for instance, the summer busy months (July – August) the number of tourists is higher and their willingness to consume too. Therefore, in August, in case of a maritime disruption or delay involving one of the next islands, Fuerteventura would be losing around € 7 thousands, Las Palmas € 5.5 thousand, Lanzarote € 3.5 thousand, and La Graciosa € 464 every hour (Figure 13). Conversely of what shows the tourism highest peak in winter, these months show a low hypothetical consumption, this may be since this estimation employed only a percentage of people traveling by regular maritime lines, without taking into account tourists who entered by air.
+ 
+ 
+  
+```{r economic,fig.align="center", echo=FALSE, fig.cap = "Economic Value by each hour of delay detour or suspension by island."}
+knitr::include_graphics("docs/fig13.jpeg")
+```
+
+
+
+# Conclusions
+
+In general, Las Palmas islands have mild and moderate wave conditions traveling mainly form de N-NE directional sector. There are sporadic severe events, with low frequency of occurrence, approaching mainly from the north and northeast flanks. Nevertheless, these exposed flanks are sheltered from such extreme events and inter-island maritime traffic routes try to avoid, as far as possible, navigation in areas exposed to such events. Nevertheless, sometimes due to severe wave storms approaching from the N-NW sector and in very rare cases due to storms with a pronounced southerly component, inter-islands maritime traffic in the Las Palmas province has to be interrupted causing considerable socioeconomic negative impacts.
+
+According to the estimation made from the consumption side, in case of a disruption, detour, or delay, the destination island would be losing hundreds of euros. In summer, in addition to having more tourists, they also are willing to spend more money, thus, for instance, in August, in case of some maritime disruption, Fuerteventura’s economy would be losing around € 7 thousands, Las Palmas’ economy € 5.5 thousand, Lanzarote’s economy € 3.5 thousand, and La Graciosa’s economy € 464 every hour. 	
+Acknowledgements 
+
+
+The first and most important is to my family, Ani, and my friends, who have always given me their support, otherwise I could not be here doing this. Also, I would like to thank my tutor, Germán Rodríguez for guide me in doing this research, his teammate Daniel Guerra, and Camila Stempels for their collaboration. Finally, I would like to thank Fred Olsen Express company and Puertos del Estado institution for providing disruption traffic data and meteoceanic data respectively. 
+
+# References
+
+Abdolali, A., van der Westhuysen, A., Ma, Z., Mehra, A., Roland, A., & Moghimi, S. (2021). Evaluating the accuracy and uncertainty of atmospheric and wave model hindcasts during severe events using model ensembles. Ocean Dynamics, 71(2), 217–235. https://doi.org/10.1007/s10236-020-01426-9
+Booij, N., Ris, R. C., & Holthuijsen, L. H. (1999). A third-generation wave model for coastal regions 1. Model description and validation. Journal of Geophysical Research: Oceans, 104(C4), 7649–7666. https://doi.org/10.1029/98JC02622
+Cao, D., Stanley, J., & Stanley, J. (2017). Indicators of socio-spatiai transport disadvantage for inter-isiand transport pianning in rurai Phiiippine communities. Social Inclusion, 5(4), 116–131. https://doi.org/10.17645/si.v5i4.1098
+Chairullah, A., Mulyatic, H., Eva, A., & Kusumastanto, T. (2021). Impact of maritime logistics on archipelagic economic development in eastern Indonesia | Enhanced Reader.
+Christodoulou, A., & Woxenius, J. (2019). Sustainable short sea shipping. Sustainability (Switzerland), 11(10). https://doi.org/10.3390/su11102847
+Delgado, G., & Hernández, J. (2019). Transporte Marítimo, Redes Portuarias Atlánticas y Mediterráneas. El Ejemplo de Canarias. Revista de Estudios Andaluces, 38, 28–49. https://doi.org/10.12795/rea.2019.i38.02
+Di Paola, G., Rodríguez, G., & Rosskopf, C. M. (2020). Short- to mid-term shoreline changes along the southeastern coast of Gran Canaria Island (Spain). Rendiconti Lincei, 31(1), 89–102. https://doi.org/10.1007/s12210-020-00872-3
+Eurostat. (2021). Statistics Explained. https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Main_Page
+Gonçalves, M., Martinho, P., & Soares, G. (2014). Assessment of wave energy in the Canary Islands. https://doi.org/10.1016/j.renene.2014.03.017
+Guerra-Medina, D., & Rodríguez, G. (2021). Spatiotemporal variability of extreme wave storms in a beach tourism destination area. Geosciences (Switzerland), 11(6), 1–18. https://doi.org/10.3390/geosciences11060237
+Hernández, J. (1996). El transporte aéreo en el contexto socioeconómico de Canarias.
+Hernández, J. (2018). Diagnosis of the transinsular transportation axis in the context of the Canary Islands’ territorial integration. Boletin de La Asociacion de Geografos Espanoles, 2018(77), 549–580. https://doi.org/10.21138/bage.2551
+Hernández, J. Á. (1996). El transporte marítimo en el contexto socioeconómico de Canarias (G. de Canarias (ed.); Gobierno d). Fundación Canaria de Transporte.
+ISTAC. (2021). ISTAC - Gobierno de Canarias. http://www.gobiernodecanarias.org/istac/
+Marzano, V., Tocchi, D., Fiori, C., Tinessa, F., Simonelli, F., & Cascetta, E. (2020). Ro-Ro/Ro-Pax maritime transport in Italy: A policy-oriented market analysis. Case Studies on Transport Policy, 8(4), 1201–1211. https://doi.org/10.1016/j.cstp.2020.08.001
+Massel, S. R. (1996). Ocean Surface Waves: Their Physics and Prediction (Advanced S, Vol. 11). World Scientific Publishing Co. Pte. Ltd. https://doi.org/10.1142/9789813228382
+Masson, D. G., Watts, A. B., Gee, M. J. R., Urgeles, R., Mitchell, N. C., Le Bas, T. P., & Canals, M. (2002). Slope failures on the flanks of the western Canary Islands. Earth-Science Reviews, 57(1–2), 1–35. https://doi.org/10.1016/S0012-8252(01)00069-1
+MATLAB. (2020). MATLAB (version 7.10.0 (R2020b)). Natick, Massachusetts: The MathWorks Inc.
+Mendoza, G. D. R., & López, F. (2002). La Importancia del Transporte en Canarias.
+Pérez, J., Menéndez, M., Camus, P., Méndez, F., & Losada, Í. (2014). Proyecciones multi-modelo de clima de oleaje en el atlántico norte. 635–644.
+Puertos Canarios. (2021). Estadísticas - Puertos Canarios. https://puertoscanarios.es/estadisticas/
+Puertos del Estado. (2021). Pages - Estadística Mensual. http://www.puertos.es/en-us/estadisticas/Pages/estadistica_mensual.aspx
+QGIS.org. (2021). QGIS Geographic Information System. QGIS Association. http://www.qgis.org
+R Core Team. (2021). R: A language and environment for statistical computing. R. Foundation for Statistical Computing. https://www.r-project.org/.
+Rawson, K. J., & Tupper, E. C. (2001). Basic Ship Theory Vol 1 - Hydrostatics and Strenght. In Spine (Vol. 1, Issue 4). http://books.google.com/books?hl=en&amp;lr=&amp;id=kZllVZJczXwC&amp;oi=fnd&amp;pg=PR15&amp;dq=Basic+Ship+Theory&amp;ots=QaHhR86p0H&amp;sig=vHFEHAYP4bGsNu6jZYEozY_mmTQ
+Rodríguez, G., Guedes Soares, C., & Machado, U. (1999). Uncertainty of the sea state parameters resulting from the methods of spectral estimation. In Ocean Engineering (Vol. 26).
+Sierra, J. P., González-Marco, D., Sospedra, J., Gironella, X., Mösso, C., & Sánchez-Arcilla, A. (2013). Wave energy resource assessment in Lanzarote (Spain). https://doi.org/10.1016/j.renene.2013.01.004
+Stillman, C. J. (1999). Giant Miocene landslides and the evolution of Fuerteventura, Canary Islands. In Stillmanr Journal of Volcanology and Geothermal Research (Vol. 94). www.elsevier.comrlocaterjvolgeores
+Tovar, B., Hernández, R., & Rodríguez-Déniz, H. (2014). Container port competitiveness and connectivity: The Canary Islands main ports case. https://doi.org/10.1016/j.tranpol.2014.11.001
+UNCTAD. (2020). Review of Maritime Transport 2020. In Journal of Chemical Information and Modeling (Vol. 53, Issue 9). https://unctad.org/system/files/official-document/rmt2020_en.pdf
+Vega, J. ., & Rodríguez, G. (2007). Modelling long term distribution of mean wave direction. In C. Guedes & Kolev (Eds.), Proc. of the 12th Int. Conf. of the International Maritime Association of the Mediterranean.
+Wilson, M. C. (2007). The impact of transportation disruptions on supply chain performance. Transportation Research Part E: Logistics and Transportation Review, 43(4), 295–320. https://doi.org/10.1016/j.tre.2005.09.008
+World Bank. (2013). State of logistics Indonesia.
+World Bank. (2021a). Final consumption expenditure (% of GDP) | Data. https://data.worldbank.org/indicator/NE.CON.TOTL.ZS
+World Bank. (2021b). Households and NPISHs final consumption expenditure (% of GDP) | Data. https://data.worldbank.org/indicator/NE.CON.PRVT.ZS
 
